@@ -1,0 +1,43 @@
+.navbar-default .nav, .navbar-default .navbar-brand { /*padding img-logo navegador */
+    padding: 2em 0;
+}
+
+.navbar-default { /*color navegador */
+    background-color: #088A08;
+}
+
+@media screen and (max-width: 767px) { /*media queries colapsa navegador */
+  .navbar-default .nav, .navbar-default .navbar-brand {
+      padding: 2em !important;
+  }
+  .navbar-default .navbar-toggle {
+    margin-top: 3em !important;
+    border-color: #088A08;
+  }
+  header .container {
+
+  }
+}
+
+#img-back-1 {
+    background-image: url("../img/carousel-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header {
+    text-align: center;
+    color: #FFF;
+    position: fixed;
+    width:100%;
+    z-index: 1;
+    height: 88%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+header .container {
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
