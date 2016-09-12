@@ -6,6 +6,17 @@
     background-color: #23C68B;
 }
 
+@media screen and (max-width: 767px) { /*media queries price */
+  .border-price {
+      margin-top: 2em !important;
+  }
+}
+@media screen and (max-width: 767px) { /*media queries redes sociales */
+  .size-redes {
+      font-size: 4em !important;
+  }
+}
+
 @media screen and (max-width: 767px) { /*media queries colapsa navegador */
   .navbar-default .nav, .navbar-default .navbar-brand {
       padding: 2em !important;
@@ -13,9 +24,6 @@
   .navbar-default .navbar-toggle {
     margin-top: 3em !important;
     border-color: #23C68B;
-  }
-  header .container {
-
   }
 }
 
@@ -31,7 +39,6 @@ header {
     text-align: center;
     color: #fff;
     background: #18bc9c;
-
     position: fixed;
     width:100%;
     z-index: 1;
@@ -60,18 +67,12 @@ header img {
     margin: 0 auto 20px;
 }
 
-header .intro-text .name {
+header .intro-text {
     display: block;
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 19em !important;
 }
 
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
-}
 
 section {
     padding: 100px 0;    
@@ -81,44 +82,6 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
-}
-hr.star-light,
-hr.star-primary {
-    margin: 25px auto 30px;
-    padding: 0;
-    max-width: 250px;
-    border: 0;
-    border-top: solid 5px;
-    text-align: center;
-}
-
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: FontAwesome;
-    font-size: 2em;
-}
-
-hr.star-light {
-    border-color: #fff;
-}
-
-hr.star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
-}
-
-hr.star-primary {
-    border-color: #2c3e50;
-}
-
-hr.star-primary:after {
-    color: #2c3e50;
-    background-color: #fff;
 }
 
 section.primary h2{    
@@ -232,8 +195,8 @@ section.success{
 .hr1 {
     border: 0; 
     height:0;
-    width: 15%;
-    margin-left: 40%;
+    width: 10%;
+    margin-left: 45%;
 }
 
 .hrcolor1 {
@@ -330,4 +293,18 @@ ul.social-network li {
 .size-redes {
   font-size: 10em;
   color: #FFF;
+}
+
+.color-bclk {
+  color: #000 !important;
+}
+
+.center-img {
+  width: 30%;
+  margin-left: 35%;
+}
+
+.center-img-2 {
+  width: 80%;
+  margin: 5% 10%;
 }
