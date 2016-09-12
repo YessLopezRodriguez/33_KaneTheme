@@ -313,10 +313,21 @@ ul.social-network li {
 
 .text-cursive {
   font-size: 1.3em;
-  padding: 5% 20%;
+  padding: 2% 20%;
 }
 
 .text-naranja {
   color: #EA6A1B !important;
   font-size: 1.3em;
+}
+
+#img-back-2 {
+    background-image: url("../img/img-divider-img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.size-redes {
+  font-size: 10em;
+  color: #FFF;
 }
