@@ -276,3 +276,14 @@ section.success{
     outline: 0;
 }
 /* seccion what we do*/
+
+ul.social-network {
+    list-style: none;
+  display: inline;
+  margin-left:0 !important;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
