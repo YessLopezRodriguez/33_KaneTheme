@@ -310,3 +310,13 @@ ul.social-network li {
 .border-price {
   border: 1px solid #23C68B;
 }
+
+.text-cursive {
+  font-size: 1.3em;
+  padding: 5% 20%;
+}
+
+.text-naranja {
+  color: #EA6A1B !important;
+  font-size: 1.3em;
+}
