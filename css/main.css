@@ -3,7 +3,7 @@
 }
 
 .navbar-default { /*color navegador */
-    background-color: #088A08;
+    background-color: #23C68B;
 }
 
 @media screen and (max-width: 767px) { /*media queries colapsa navegador */
@@ -12,7 +12,7 @@
   }
   .navbar-default .navbar-toggle {
     margin-top: 3em !important;
-    border-color: #088A08;
+    border-color: #23C68B;
   }
   header .container {
 
@@ -25,9 +25,13 @@
     background-size: 100% 100%;
 }
 
+/*CSS*/
+
 header {
     text-align: center;
-    color: #FFF;
+    color: #fff;
+    background: #18bc9c;
+
     position: fixed;
     width:100%;
     z-index: 1;
@@ -37,7 +41,238 @@ header {
     left: 0;
 }
 
-header .container {
-    padding-top: 20%;
-    padding-bottom: 10%;
+.content-wrapper{
+    background-color: white;
+    top: 87%;
+    min-height: 12%;
+    position:absolute;
+    z-index: 2;
+    width: 100%;    
 }
+/* HERE ENDS THE MAGIC */
+header .container {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+section {
+    padding: 100px 0;    
+    width: 100%;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+}
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #18bc9c;
+}
+
+hr.star-primary {
+    border-color: #2c3e50;
+}
+
+hr.star-primary:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
+section.primary h2{    
+    color: #fff;
+    }
+    
+section.success{
+    background-color: #34495E;
+    color: #fff;
+    }
+
+.what{
+    background-color: #23C68B;
+    color: #fff;
+}
+
+/*CSS*/
+ 
+
+/*PALETAS*/
+.div-paleta-colores {
+    width: 15%;
+    min-width:100px;
+    height: 150px;
+    margin-top:10px;
+    display:inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+    color:white;
+  }
+
+  #uno {
+    background-color: #69D2E7;
+  }
+  #dos {
+    background-color: #A7DBDB;
+  }
+  #tres {
+    background-color: #E0E4CC;
+  }
+  #cuatro {
+    background-color: #F38630;
+  }
+  #cinco {
+    background-color: #FA6900;
+  }
+  #seis {
+    background-color: #E94E6F;
+  }
+  #siete {
+    background-color: #542433;
+  }
+  #ocho {
+    background-color: #5A6A62;
+  }
+  #nueve {
+    background-color: #C6D5CD;
+  }
+  #diez {
+    background-color: #FDF200;
+  }
+  #once {
+    background-color: #DB3340;
+  }
+  #doce {
+    background-color: #E8B711;
+  }
+  #trece {
+    background-color: #F7EAC8;
+  }
+  #catorce {
+    background-color: #1FDA9A;
+  }
+  #quince {
+    background-color: #28ABE3;
+  }
+  #dieciseis {
+    background-color: #588c73;
+  }
+  #diecisiete {
+    background-color: #F2E394;
+  }
+  #dieciocho {
+    background-color: #F2AE72;
+  }
+  #diecinueve {
+    background-color: #D96459;
+  }
+  #veinte {
+    background-color: #8C4646;
+  }  
+
+  #veintiuno {
+    background-color: #D0C91F;
+  }
+  #veintidos {
+    background-color: #85C4B9;
+  }
+  #veintitres {
+    background-color: #008BBA;
+  }
+  #veinticuatro {
+    background-color: #DF514C;
+  }
+  #veinticinco {
+    background-color: #DC403B;
+  }    
+
+/*PALETAS*/
+
+.hr1 {
+    border: 0; 
+    height:0;
+    width: 15%;
+    margin-left: 40%;
+}
+
+.hrcolor1 {
+    border-top: 1px solid #000; 
+    border-bottom: 1px solid #000; 
+}
+
+.hrcolor2 {
+    border-top: 1px solid #FFF; 
+    border-bottom: 1px solid #FFF; 
+}
+
+.progress {
+  height: 0.8em;
+}
+
+/*progress about us*/
+#p-html {
+  width: 95%;
+}
+#p-css {
+  width: 85%;
+}
+#p-java {
+  width: 605%;
+}
+#p-php {
+  width: 68%;
+}
+#p-pi {
+  width: 80%;
+}
+/*progress about us*/
+
+/* seccion what we do*/
+.btn.btn-blk{
+    background: #2C3E50;
+    color: #FFF;
+    border-radius: 0;
+    outline: 0;
+}
+/* seccion what we do*/
