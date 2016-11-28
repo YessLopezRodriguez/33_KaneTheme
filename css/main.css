@@ -2,9 +2,9 @@
     padding: 2em 0;
 }
 
-.navbar-default { /*color navegador */
+.navbar-default { /*color navegador */ 
     background-color: #23C68B;
-}
+}   
 
 @media screen and (max-width: 767px) { /*media queries price */
   .border-price {
@@ -75,7 +75,7 @@ header .intro-text {
 
 
 section {
-    padding: 100px 0;    
+    padding: 200px 0;    
     width: 100%;
 }
 
@@ -307,4 +307,14 @@ ul.social-network li {
 .center-img-2 {
   width: 80%;
   margin: 5% 10%;
+}
+
+/* cambios */
+
+ a {
+  color: white !important;
+}
+
+a:hover {
+  background-color: transparent !important;
 }
